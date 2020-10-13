@@ -23,4 +23,4 @@ doc:
 	doxygen doxygenconfig
 
 doczip:
-	tar -cvf quiz2.tar.gz html
+	tar -cvf quiz2.tar html
