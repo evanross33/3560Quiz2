@@ -1,1 +1,1 @@
-# 3560Quiz2
+# CS 3560 QUIZ 2 REPO (Evan Ross)
