@@ -1,11 +1,12 @@
 /***********************************************************************8
-	This class stores the three essential features of a completed 
-	college course: the course number, the grade received, and the 
-	credit hours for the course. The get_number_grade will return the 
-	numeric equivalent of a letter grade as used in the standard 4 
+	This class stores the three essential features of a completed
+	college course: the course number, the grade received, and the
+	credit hours for the course. The get_number_grade will return the
+	numeric equivalent of a letter grade as used in the standard 4
 	point system.
 		John Dolan	School of EECS		Summer 2013
 ************************************************************************/
+/** @file course.h @brief Declares functions for the class course*/
 
 #include<iostream>
 #include<string>

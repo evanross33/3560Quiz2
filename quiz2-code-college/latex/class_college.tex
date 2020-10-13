@@ -1,0 +1,95 @@
+\hypertarget{class_college}{}\doxysection{College Class Reference}
+\label{class_college}\index{College@{College}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_college_adabaf4087355e83f9f7d39f1e1498b41}\label{class_college_adabaf4087355e83f9f7d39f1e1498b41}} 
+{\bfseries College} (std\+::string s)
+\item 
+\mbox{\Hypertarget{class_college_ad007ad488e5a7ef986114080d0c8e101}\label{class_college_ad007ad488e5a7ef986114080d0c8e101}} 
+{\bfseries College} (const \mbox{\hyperlink{class_college}{College}} \&other)
+\item 
+\mbox{\hyperlink{class_college}{College}} \& \mbox{\hyperlink{class_college_af2194c9b37f80d13dc3fdba6784b18e8}{operator=}} (const \mbox{\hyperlink{class_college}{College}} \&other)
+\begin{DoxyCompactList}\small\item\em Will set one college variable equal to another using =. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_college_a67fd1d8970b46b24ce2e0dd72598a22f}{add}} (\mbox{\hyperlink{classcourse}{course}} \&c)
+\begin{DoxyCompactList}\small\item\em Will add a course to the list of enrolled courses. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_college_a4d2ae513b36e6421fb1ca2c08459cfe6}{remove}} (std\+::string coursename)
+\begin{DoxyCompactList}\small\item\em Will remove a course from the list of enrolled courses. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_college_a52ca0a164483cf5c05591cd0fb8b300c}\label{class_college_a52ca0a164483cf5c05591cd0fb8b300c}} 
+void {\bfseries display} (std\+::ostream \&outs)
+\item 
+\mbox{\Hypertarget{class_college_a8a7a762611a1d7e00c453390d49355fd}\label{class_college_a8a7a762611a1d7e00c453390d49355fd}} 
+double {\bfseries hours} ()
+\item 
+\mbox{\Hypertarget{class_college_aaf9bfaa0bc717e96da6365661a96fcd0}\label{class_college_aaf9bfaa0bc717e96da6365661a96fcd0}} 
+double {\bfseries gpa} ()
+\item 
+\mbox{\Hypertarget{class_college_af6b419f813bc990c0e11f99b78a26899}\label{class_college_af6b419f813bc990c0e11f99b78a26899}} 
+void {\bfseries save} (std\+::ostream \&outs)
+\item 
+\mbox{\Hypertarget{class_college_a11422094ddd907705daede7aa537dd73}\label{class_college_a11422094ddd907705daede7aa537dd73}} 
+void {\bfseries load} (std\+::istream \&ins)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_college_a67fd1d8970b46b24ce2e0dd72598a22f}\label{class_college_a67fd1d8970b46b24ce2e0dd72598a22f}} 
+\index{College@{College}!add@{add}}
+\index{add@{add}!College@{College}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily void College\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcourse}{course}} \&}]{c }\end{DoxyParamCaption})}
+
+
+
+Will add a course to the list of enrolled courses. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c\mbox{[}in\mbox{]}} & c is a course varibale that will be added to the list \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function has no return 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_college_af2194c9b37f80d13dc3fdba6784b18e8}\label{class_college_af2194c9b37f80d13dc3fdba6784b18e8}} 
+\index{College@{College}!operator=@{operator=}}
+\index{operator=@{operator=}!College@{College}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_college}{College}} \& College\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_college}{College}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Will set one college variable equal to another using =. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other\mbox{[}in\mbox{]}} & The other college variable to set the original equal to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns the original college varibale holding the same info as the second college variable 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_college_a4d2ae513b36e6421fb1ca2c08459cfe6}\label{class_college_a4d2ae513b36e6421fb1ca2c08459cfe6}} 
+\index{College@{College}!remove@{remove}}
+\index{remove@{remove}!College@{College}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}}
+{\footnotesize\ttfamily void College\+::remove (\begin{DoxyParamCaption}\item[{std\+::string}]{coursename }\end{DoxyParamCaption})}
+
+
+
+Will remove a course from the list of enrolled courses. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em coursename\mbox{[}in\mbox{]}} & coursename is a course varibale that will be removed from the list \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+This function has no return 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{college_8h}{college.\+h}}\item 
+\mbox{\hyperlink{college_8cc}{college.\+cc}}\end{DoxyCompactItemize}
